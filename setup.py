@@ -10,5 +10,10 @@ setup(
   url = 'https://github.com/statstable/statstable-python', 
   download_url = 'https://github.com/statstable/statstable-python/archive/0.1.tar.gz', 
   keywords = ['statstable', 'api', 'wrapper', 'sports', 'statistics', 'nba', 'mlb'],
+  install_requires = [
+    'requests',
+    'time',
+    'datetime'
+  ],
   classifiers = [],
 )
