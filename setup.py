@@ -1,4 +1,4 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
   name = 'statstable',
@@ -12,8 +12,6 @@ setup(
   keywords = ['statstable', 'api', 'wrapper', 'sports', 'statistics', 'nba', 'mlb'],
   install_requires = [
     'requests',
-    'time',
-    'datetime'
   ],
   classifiers = [],
 )
