@@ -20,7 +20,7 @@ stats = ss.getNBAStats(params)
 
 will return the following the stats variable
 
-```json
+```javascript
 {
   "results": [
     {
