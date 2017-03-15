@@ -13,12 +13,12 @@ import statstable as ss
 
 params = {
   'playerId': 'lebron-james',
-  'fields': ['date', 'MP', 'PTS']
+  'fields':   ['date', 'MP', 'PTS']
 }
 stats = ss.getNBAStats(params)
 ```
 
-will return the following the stats variable
+`stats` will contain the following statistics:
 
 ```javascript
 {
@@ -58,4 +58,4 @@ will return the following the stats variable
 
 ## Documentation
 
-View StaStable's full documentation at https://statstable.com/docs
+View StatStable's full documentation at https://statstable.com/docs
